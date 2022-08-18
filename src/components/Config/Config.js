@@ -1,3 +1,3 @@
-const API = 'http://10.58.4.114:8000';
+const API = 'http://54.180.131.254:8000';
 
 export { API };
