@@ -83,7 +83,6 @@ const Post = () => {
     formData.append('title', user.title);
     formData.append('content', user.content);
     axios.post(`${API}/posts/posting`, formData, config).then(response => {
-      console.log(response);
       navigation('/posts');
     });
   };

@@ -92,6 +92,7 @@ const List = () => {
     }
   };
 
+  console.log(items);
   const isData = items.length !== 0;
 
   if (!isData) {
